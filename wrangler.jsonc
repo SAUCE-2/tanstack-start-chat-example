@@ -9,14 +9,7 @@
       {
         "name": "CHAT_ROOM",
         "class_name": "ChatRoom",
-        "script_name": "ts-cf-do-chatroom",
       },
     ],
   },
-  "migrations": [
-    {
-      "tag": "v1",
-      "new_sqlite_classes": ["ChatRoom"], // Error 10097 if this isnt used. See https://developers.cloudflare.com/durable-objects/best-practices/access-durable-objects-storage/#create-sqlite-backed-durable-object-class
-    },
-  ],
 }
